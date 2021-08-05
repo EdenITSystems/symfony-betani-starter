@@ -11,14 +11,13 @@ import './styles/app.scss';
 // you can specify whith plugins you need
 import { Tooltip, Toast, Popover } from 'bootstrap';
 
-import './js/main';
-import './vendor/aos/aos';
-import './vendor/bootstrap/js/bootstrap.bundle';
-import './vendor/glightbox/js/glightbox';
-import './vendor/isotope-layout/isotope.pkgd';
-import './vendor/php-email-form/validate';
-import './vendor/purecounter/purecounter';
-// import './vendor/swiper/swiper-bundle';
+// import 'aos'
+import 'bootstrap/dist/js/bootstrap'
+import 'glightbox/dist/js/glightbox'
+import 'isotope-layout/dist/isotope.pkgd'
+import 'validate/build/validators'
+import '@srexi/purecounterjs/dist/purecounter'
+import 'swiper/swiper-bundle'
 
 // start the Stimulus application
 import './bootstrap';
